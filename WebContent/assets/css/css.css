@@ -1,7 +1,7 @@
 @CHARSET "ISO-8859-1";
 
 /*!
- * Custom CSS Addition for Strawsburg Development
+ * Custom CSS addition for Strawsburg Development
  * This CSS file overrides the bootstrap.css file
  */
 
@@ -40,5 +40,5 @@ h2 {
 }
 
 footer {
-	padding-right: 900px;
+	padding-left: 900px;
 }
