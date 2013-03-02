@@ -1,22 +1,24 @@
 @CHARSET "ISO-8859-1";
 
+/*!
+ * Custom CSS Addition for Strawsburg Development
+ * This CSS file overrides the bootstrap.css file
+ */
+
 body {
-	background-color: #45515F;
-	color: #F2F2F2;
+	
 }
 
 h1 {
-	font-family: 'Open Sans', sans-serif;
+
 }
 
 h2 {
-	color: #FF6A00;
+
 }
 
 .hero-unit {
-	color: #000000;
-	font-family: 'Lato', sans-seri;
-	font-weight: 300;
+	
 }
 
 .nav {
@@ -24,14 +26,13 @@ h2 {
 }
 
 .navbar-inner {
-	background-color: #2D343D;
+
 }
 
 .brand {
-	font-family: 'Lato', sans-serif;
-	font-weight: 900;
+	
 }
 
 footer {
-	font-family: 'Lato', sans-serif;
+	;
 }
