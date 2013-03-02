@@ -39,6 +39,24 @@ h2 {
     
 }
 
+/*! Footer Starts Here */
 footer {
 	padding-left: 900px;
+}
+
+.footer_top {
+    background-image:url('assets/img/header-top-bkg.gif');
+    background-repeat: repeat;
+    min-width: 90px;
+    min-height: 90px;
+    width: 100%;
+    border-bottom: 5px solid #747B86;
+    
+}
+
+.roll-fb {
+    background: url("") no-repeat scroll -14px -8px transparent;
+    display: block;
+    height: 33px;
+    width: 18px;
 }
