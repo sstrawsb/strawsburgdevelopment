@@ -45,8 +45,8 @@ h2 {
     background-image:url('../img/header-top-bkg.gif');
     background-repeat: repeat-x;
     min-width: 90px;
-    min-height: 90px;
-    border-bottom: 5px solid #747B86;
+    min-height: 60px;
+    border-top: 5px solid #747B86;
     
 }
 
@@ -58,10 +58,22 @@ h2 {
 
 .ul_social li{
     display: inline-block;
-    text-align: center;
+    
+}
+
+#social_links {
+    margin: 0;
+    padding: 0;
 }
 
 /*! Rollovers are here*/
+
+.rollovericons {
+    float: right;
+    padding-top: 15px;
+    padding-right: 40px;
+}
+
 .rollovericons a#facebook{
 	display: block;
 	width:32px;
