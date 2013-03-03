@@ -39,24 +39,89 @@ h2 {
     
 }
 
-/*! Footer Starts Here */
-footer {
-	padding-left: 900px;
-}
+/*! Footer Top Starts Here */
 
 .footer_top {
-    background-image:url('assets/img/header-top-bkg.gif');
-    background-repeat: repeat;
+    background-image:url('../img/header-top-bkg.gif');
+    background-repeat: repeat-x;
     min-width: 90px;
     min-height: 90px;
-    width: 100%;
     border-bottom: 5px solid #747B86;
     
 }
 
-.roll-fb {
-    background: url("") no-repeat scroll -14px -8px transparent;
-    display: block;
-    height: 33px;
-    width: 18px;
+.foot_container {
+    text-align: center;
+
 }
+/*! Footer social icons Starts Here */
+
+.ul_social li{
+    display: inline-block;
+    text-align: center;
+}
+
+/*! Rollovers are here*/
+.rollovericons a#facebook{
+	display: block;
+	width:32px;
+	height:32px;
+	background:  url(../ico/facebook_dark.png) no-repeat;
+}
+
+.rollovericons a:hover#facebook{
+	background: url(../ico/facebook_active.png) no-repeat;
+        width:32px;
+	height:32px;
+}
+
+.rollovericons a#twitter{
+	display: block;
+	width:32px;
+	height:32px;
+	background:  url(../ico/twitter02_dark.png) no-repeat;
+}
+
+.rollovericons a:hover#twitter{
+	background: url(../ico/twitter02_active.png) no-repeat;
+        width:32px;
+	height:32px;
+}
+
+.rollovericons a#linkedin{
+	display: block;
+	width:32px;
+	height:32px;
+	background:  url(../ico/in_dark.png) no-repeat;
+}
+
+.rollovericons a:hover#linkedin{
+	background: url(../ico/in_active.png) no-repeat;
+        width:32px;
+	height:32px;
+}
+
+.rollovericons a#share{
+	display: block;
+	width:32px;
+	height:32px;
+	background:  url(../ico/share_dark.png) no-repeat;
+}
+
+.rollovericons a:hover#share{
+	background: url(../ico/share_active.png) no-repeat;
+        width:32px;
+	height:32px;
+}
+.rollovericons a span{
+	display: none;
+}
+
+
+/*! Footer Starts Here */
+
+footer {
+	padding-left: 900px;
+}
+
+
